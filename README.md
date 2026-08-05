@@ -1,52 +1,52 @@
 # 🚆 Railway Booking System
 
-A web-based Railway Booking System developed using **ASP.NET Web Forms (C#)** and **SQL Server**. The application allows users to register, log in, book train tickets, view reservations, and manage booking details through a simple and user-friendly interface.
+> A Railway Reservation Management System developed using ASP.NET and SQL Server to simplify train ticket booking and reservation management.
 
----
+## 📌 About
 
-## 📌 Project Overview
+The Railway Booking System is a web application that enables users to create, manage, update, and cancel railway reservations efficiently.
 
-The Railway Booking System is designed to simplify the railway reservation process by providing an online platform where users can:
-
-- Register and log in securely
-- Book railway tickets
-- View reservation details
-- Edit reservation information
-- Generate booking reports
-- Manage reservations efficiently
-
-This project was developed as part of my **Master of Computer Applications (MCA)**.
+The project demonstrates CRUD operations, database connectivity, and user-friendly management of reservation records.
 
 ---
 
 ## ✨ Features
 
-- 👤 User Registration
-- 🔐 User Login Authentication
-- 🎫 Train Ticket Reservation
-- 📋 View All Reservations
-- ✏️ Edit Reservation Details
-- 📄 Reservation Reports
-- 📊 Dashboard
-- 💾 SQL Server Database Integration
+✔ User Login
+
+✔ Dashboard
+
+✔ Create Reservation
+
+✔ View Reservation Details
+
+✔ Update Reservation
+
+✔ Delete Reservation
+
+✔ Reservation Reports
+
+✔ Passenger Information Management
+
+✔ SQL Database Integration
 
 ---
 
-## 🛠️ Technologies Used
+## 🛠 Technologies Used
 
 ### Frontend
+
 - ASP.NET Web Forms
 - HTML
 - CSS
 
 ### Backend
+
 - C#
 
 ### Database
-- SQL Server (LocalDB)
 
-### IDE
-- Microsoft Visual Studio
+- SQL Server (.mdf)
 
 ---
 
@@ -55,121 +55,93 @@ This project was developed as part of my **Master of Computer Applications (MCA)
 ```
 Railway-Booking-System/
 │
-├── Add.aspx
 ├── Dashboard.aspx
 ├── CreateReservation.aspx
 ├── ReservationDetails.aspx
 ├── AllReservations.aspx
-├── Edit.aspx
 ├── Report.aspx
-├── registration.aspx
+├── Add.aspx
+├── Edit.aspx
 ├── loginpage.aspx
 ├── RailwayDB.mdf
-├── Web.config
-└── README.md
+└── Web.config
 ```
 
 ---
 
-## ⚙️ Installation
+## 📊 System Modules
 
-### Prerequisites
+### User Authentication
 
-- Visual Studio
-- SQL Server LocalDB
-- .NET Framework 4.0 or later
+Secure login system for accessing the application.
 
-### Steps
+### Reservation Management
 
-1. Clone the repository
+Create new train reservations with passenger details.
 
-```bash
-git clone https://github.com/your-username/Railway-Booking-System.git
-```
+### Reservation Details
 
-2. Open the project in Visual Studio.
+View complete booking information.
 
-3. Restore the database using the provided `.mdf` file if necessary.
+### Edit Reservation
 
-4. Verify the connection string in **Web.config**.
+Modify existing reservation details.
 
-5. Build and run the project.
+### Delete Reservation
 
----
+Remove reservation records.
 
-## 🗄️ Database
+### Reports
 
-The project uses SQL Server LocalDB.
-
-Database files included:
-
-- RailwayDB.mdf
-- RailwayDB_log.ldf
-
-Connection string is configured in:
-
-```
-Web.config
-```
+Display reservation reports for management.
 
 ---
 
-## 📷 Screens
+## 💡 Key Concepts Demonstrated
 
-The application includes:
-
-- Login Page
-- Registration Page
-- Dashboard
-- Create Reservation
-- Reservation Details
-- Edit Reservation
-- View All Reservations
-- Report Page
-
-*(Screenshots can be added here later.)*
-
----
-
-## 🎯 Learning Outcomes
-
-Through this project, I gained hands-on experience in:
-
+- CRUD Operations
+- Database Connectivity
+- SQL Queries
 - ASP.NET Web Forms
 - C# Programming
-- SQL Server Database Management
-- CRUD Operations
-- Authentication and Login
-- Database Connectivity
-- Web Application Development
+- Form Validation
+- Session Management
 
 ---
 
-## 🚀 Future Enhancements
+## 🚀 How to Run
 
-- Online Payment Integration
-- Email Confirmation
-- Seat Availability Module
-- Train Search Functionality
-- Admin Dashboard
-- Password Encryption
-- Responsive UI
-- Booking Cancellation with Refund
+1. Open the solution in Visual Studio.
+2. Restore the SQL Server database.
+3. Configure the connection string in `Web.config`.
+4. Build and run the application.
+5. Access the application in your browser.
 
 ---
 
-## 👩‍💻 Author
+## 📷 Screenshots
+
+Recommended screenshots:
+
+- Login Page
+- Dashboard
+- Create Reservation
+- Reservation List
+- Reports
+
+---
+
+## 👩‍💻 Developed By
 
 **Monisha S**
 
-- MCA Graduate
-- Passionate about Web Development and Software Engineering
+MCA Graduate | Aspiring Frontend Developer
 
 GitHub:
-https://github.com/monishas2k3
+https://github.com/yourusername
 
 ---
 
-## 📄 License
+## ⭐ Support
 
-This project is developed for educational purposes as part of the MCA curriculum.
+If you like this project, don't forget to give it a ⭐.
